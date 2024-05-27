@@ -1,7 +1,7 @@
 # Similarity Checker Documentation
 
 Introduction
-The Similarity Checker is a Python project that analyzes a string of 6 characters to check if it has a certain similarity with a predefined list of terms. The similarity is measured using the Levenshtein distance algorithm. If the similarity is above a specified threshold, the term is considered similar.
+The Similarity Checker is a Python project that analyzes a string to check if it has a certain similarity with a predefined list of terms. The similarity is measured using the Levenshtein distance algorithm. If the similarity is above a specified threshold, the term is considered similar.
 
 Ensure you have Python installed on your system. You can download it from python.org.
 
