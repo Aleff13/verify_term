@@ -10,6 +10,6 @@ class TermChecker:
         for term in self.__terms:
             similarity = 1 - (Levenshtein.distance(input, term) / max(len(input), len(term)))
             if similarity >= self.__similarity_limit:
-                results.append((term, similarity))
+                results.append((term, f"{similarity:.2f}"))
 
         return results

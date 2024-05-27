@@ -11,6 +11,6 @@ if __name__ == "__main__":
     if results:
         print(f"The term '{input_term}' has similarity with:")
         for term, similarity in results:
-            print(f"Term: {term}, Similarity: {similarity:.2f}")
+            print(f"Term: {term}, Similarity: {similarity}")
     else:
         print(f"Nenhum termo semelhante encontrado para '{input_term}'")
